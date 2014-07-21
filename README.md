@@ -104,6 +104,6 @@ Once done, your site will be ready to access in your browser.
 
 This has been put together using inspiration from a number of sources, as well as making use of some fantastic tools put together by others. I would like to express my thanks to:
 
-* Jeffrey Way - @jeffrey_way / @laracasts - [Laracsts](http://laracsts.com)
+* Jeffrey Way - @jeffrey_way / @laracasts - [Laracasts](http://laracasts.com)
 * Chris Fidao - @fideloper - [Fideloper](http://fideloper.com)
 * 37Signals (Xip.io) - [Xip.io DNS Tool](http://xip.io)
