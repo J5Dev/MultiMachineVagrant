@@ -14,7 +14,7 @@ echo "--- Updating repository mapping ---"
 sudo apt-get update
 
 echo "--- Installing components ---"
-sudo apt-get install -y php5 apache2 sqlite libapache2-mod-php5 php5-cli php5-curl php5-gd php5-mcrypt php5-readline php5-sqlite php5-mysql php5-curl php5-gd php5-gmp php5-mcrypt php5-memcached php5-imagick php5-xdebug git-core nodejs perl libnet-ssleay-perl openssl libauthen-pam-perl libpam-runtime libio-pty-perl apt-show-versions python
+sudo apt-get install -y php5 apache2 sqlite libapache2-mod-php5 php5-cli php5-curl php5-gd php5-mcrypt php5-readline php5-sqlite php5-mysql php5-mssql php5-curl php5-gd php5-gmp php5-mcrypt php5-memcached php5-imagick php5-xdebug git-core nodejs perl libnet-ssleay-perl openssl libauthen-pam-perl libpam-runtime libio-pty-perl apt-show-versions python
 
 echo "--- Setting up xDebug config ---"
 cat << EOF | sudo tee -a /etc/php5/mods-available/xdebug.ini
