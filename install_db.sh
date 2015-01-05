@@ -9,7 +9,7 @@ sudo apt-get install -y vim curl python-software-properties
 sudo add-apt-repository -y ppa:ondrej/mysql-5.6
 sudo apt-get update
 
-sudo apt-get install -y mysql-server-5.6 mysqltuner
+sudo apt-get install -y apt-show-versions mysql-server-5.6 mysqltuner perl libnet-ssleay-perl openssl libauthen-pam-perl libpam-runtime libio-pty-perl
 
 sed -i 's/bind-address.*/bind-address = 0.0.0.0/g' /etc/mysql/my.cnf
 
